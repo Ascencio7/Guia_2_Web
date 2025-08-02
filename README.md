@@ -42,7 +42,7 @@ Este proyecto está diseñado como práctica de **aprendizaje**, enfocado en ent
 <h3 align="left" style="text-align: center;"> 🎵 Winter Music</h3>
 
 <figure>
-  <img src="../Guia_2_Web/Guia 2 - DWA/Ejercicio_1_Reproductor_Musica/image/Winter Music.png" alt="Winter Music" style="max-width: 600px; display:block; margin:auto;">
+  <img src="/imagenes/Winter Music.png" alt="Winter Music" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
 Bienvenido a Winter Music. Una pagina web sencilla donde se podra ingresar:
