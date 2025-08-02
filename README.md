@@ -55,13 +55,13 @@ Bienvenido a Winter Music. Una pagina web sencilla donde se podra ingresar:
 
 - Se ingresa el titulo y artista.
 <figure>
-  <img src="../Guia_2_Web/Guia 2 - DWA/Ejercicio_1_Reproductor_Musica/image/Ingresar titulo y artista.png" alt="Ingresar título y artista" style="max-width: 600px; display:block; margin:auto;">
+  <img src="/imagenes/Ingresar titulo y artista.png" alt="Ingresar título y artista" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
 
 - Se selecciona el archivo .mp3.
 <figure>
-  <img src="../Guia_2_Web/Guia 2 - DWA/Ejercicio_1_Reproductor_Musica/image/Seleccionar archivo mp3.png" alt="Seleccionar archivo" style="max-width: 600px; display:block; margin:auto;">
+  <img src="/imagenes/Seleccionar archivo mp3.png" alt="Seleccionar archivo" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
 
@@ -69,25 +69,25 @@ Bienvenido a Winter Music. Una pagina web sencilla donde se podra ingresar:
 
 - En la canción tiene 3 opciones: Subir la canción a la posición superior. Bajar la canción a la posición inferior. Y borrar la canción.
 <figure>
-  <img src="../Guia_2_Web/Guia 2 - DWA/Ejercicio_1_Reproductor_Musica/image/Lista actualizada.png" alt="Lista actualizada" style="max-width: 600px; display:block; margin:auto;">
+  <img src="/imagenes/Lista actualizada.png" alt="Lista actualizada" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
 
 - Al dar clic en reproducir se mostrara el siguiente mensaje con el orden de las canciones de la lista.
 <figure>
-  <img src="../Guia_2_Web/Guia 2 - DWA/Ejercicio_1_Reproductor_Musica/image/Se mostrara la lista de canciones.png" alt="Mostrar lista de canciones" style="max-width: 600px; display:block; margin:auto;">
+  <img src="/imagenes/Se mostrara la lista de canciones.png" alt="Mostrar lista de canciones" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
 
 - Se reproduce la primera canción de la lista, y subsiguientes.
 <figure>
-  <img src="../Guia_2_Web/Guia 2 - DWA/Ejercicio_1_Reproductor_Musica/image/Reproduce la lista.png" alt="Reproducción" style="max-width: 600px; display:block; margin:auto;">
+  <img src="/imagenes/Reproduce la lista.png" alt="Reproducción" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
 
 - Y por último, se podrá filtrar las canciones por el nombre del artista.
 <figure>
-  <img src="../Guia_2_Web/Guia 2 - DWA/Ejercicio_1_Reproductor_Musica/image/Filtrar por artista.png" alt="Filtrar artista" style="max-width: 600px; display:block; margin:auto;">
+  <img src="/imagenes/Filtrar por artista.png" alt="Filtrar artista" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
 ---
