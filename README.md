@@ -13,14 +13,14 @@
 
 Este repositorio contiene **4 ejemplos funcionales básicos** que facilitan la comprensión de los conceptos básicos intermedios de programación en HTML, CSS y JS de forma clara y práctica.
 
-✅ Divs
-✅ Bootstrap
-✅ Iconos Boxicons
-✅ Logos creados con Canva
-✅ Uso de scroll interno
-✅ Función para filtrar
-✅ Formularios
-✅ Eventos de JavaScript
+✅ Divs <br>
+✅ Bootstrap <br>
+✅ Iconos Boxicons <br>
+✅ Logos creados con Canva <br>
+✅ Uso de scroll interno <br>
+✅ Función para filtrar <br>
+✅ Formularios <br>
+✅ Eventos de JavaScript <br>
 
 ---
 

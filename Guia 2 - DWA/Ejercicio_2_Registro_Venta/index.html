@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winter Store | Vladimir Ascencio</title>
+    <!-- Link de Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Link del css -->
+    <link rel="stylesheet" href="../Ejercicio_2_Registro_Venta/styles/gestorVentas.css">
+    <!-- Lin de los Iconos de Boxicons para que sean visibles -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-dark border-bottom py-2">
+        <div class="container-fluid">
+
+            <div class="row align-items-center text-center text-md-start">
+
+                <!-- Logo -->
+                <div class="col-12 col-md-3 mb-2 mb-md-0 d-flex justify-content-center justify-content-md-start">
+                    <a href="#">
+                        <img src="../Ejercicio_2_Registro_Venta/images/Winter Store Logo.png" alt="Winter Store" class="img-fluid" style="max-height: 60px;">
+                    </a>
+                </div>
+
+                <!-- Título y subtítulo -->
+                <div class="col-12 col-md-5 d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="d-flex align-items-center mb-1">
+                        <i class="bx bx-globe fs-2 text-primary me-2"></i>
+                        <h1 class="m-0 fs-4 fw-bold">
+                            <!-- Titulo -->
+                            <a href="#" class="text-decoration-none text-white">Winter Store</a>
+                        </h1>
+                    </div>
+                    <!-- Subtitulo -->
+                    <h6 class="m-0 text-white">Vladimir Ascencio</h6>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Contenido -->
+    <main class="flex-grow-1 container-fluid m-0 p-0" style="height: calc(100vh - 80px);">
+        <div class="row h-100 g-0">
+
+            <!-- Panel izquierdo para agregar los productos -->
+            <div class="col-md-6 bg-white p-4 border-end d-flex flex-column">
+                <h2 class="text-center mb-4" style="text-transform: uppercase;">Agregar Productos</h2>
+
+                <form id="productoForm" class="d-grid gap-3">
+
+                    <!-- Se pide el nombre del producto -->
+                    <input type="text" id="product" class="form-control" placeholder="Producto" required  autofocus/>
+
+                    <!-- Se pide el precio del producto -->
+                    <input type="number" id="precio" class="form-control" placeholder="Precio" step="0.01" required>
+
+                    <!-- Se pide la cantidad del producto -->
+                    <input type="number" id="cant" class="form-control" placeholder="Cantidad" step="1" required />
+
+                    <!-- Se pide una descripcion del producto que es opcional -->
+                    <textarea name="descripcion" id="desc" placeholder="Descripcion"></textarea>
+
+                    <!-- Boton para agregar el producto -->
+                    <button type="submit" class="btn btn-primary">Registrar producto</button>
+
+                </form>
+            </div>
+
+
+            <!-- Panel derecho donde se verán los producto agregados -->
+            <div class="col-md-6 bg-white p-4 d-flex flex-column" style="height: 100%;">
+                <h2 class="text-center text-dark mb-4 text-uppercase">Productos Registrados</h2>
+                
+                <!-- Productos -->
+                <div class="table-responsive overflow-auto" style="flex-grow: 1; min-height: 0;">
+                    <table class="table table-striped table-hover table-bordered text-align-middle">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>N°</th>
+                                <th>Productos</th>
+                                <th>Precio</th>
+                                <th>Cantidad</th>
+                                <th>Descripcion</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cuerpoTabla">
+                            <!-- Aquí se verán los productos -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-4 pb-3 shadow-lg mt-auto">
+        <div class="container">
+            <div class="row text-center text-md-start align-items-center">
+                <!-- Logo -->
+                <div class="col-md-3 mb-3 mb-md-0 d-flex justify-content-center justify-content-md-start">
+                    <a href="#">
+                        <img src="../Ejercicio_2_Registro_Venta/images/Winter Store Logo.png" alt="Logo Winter Store" class="img-fluid" style="max-width: 140px;">
+                    </a>
+                </div>
+    
+                <!-- Sobre Nosotros -->
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5 class="fw-bold text-uppercase mb-2">Sobre Nosotros</h5>
+                    <p class="text-white-50 small" style="text-align: justify; line-height: 1.3;">
+                        Somos una pequeña empresa dedicada al registro de productos. Donde se detallan los productos, precio,
+                        cantidad y total de la venta. Nuestro objetivo es facilitar el proceso de venta y gestión de productos.
+                    </p>
+                </div>
+    
+                <!-- Redes Sociales -->
+                <div class="col-md-5">
+                    <!-- Apartado para mostrar iconos de redes sociales -->
+                    <h5 class="fw-bold text-uppercase mb-2">Síguenos</h5>
+                    <div class="d-flex justify-content-center justify-content-md-start gap-3 fs-5 mb-2">
+                        <a href="#" class="text-white hover-icon"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="text-white hover-icon"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="text-white hover-icon"><i class='bx bxl-twitter'></i></a>
+                        <a href="#" class="text-white hover-icon"><i class='bx bxl-youtube'></i></a>
+                        <a href="#" class="text-white hover-icon"><i class='bx bxs-envelope'></i></a>
+                        <a href="#" class="text-white hover-icon"><i class='bx bxl-whatsapp'></i></a>
+                    </div>
+                    <div class="d-flex justify-content-center justify-content-md-start align-items-center small">
+                        <i class="bx bx-phone-call fs-5 text-success me-2"></i>
+                        <div>
+                            <!-- Apartado para mostrar el numero de telefono -->
+                            <div class="text-white">Mayor información</div>
+                            <div class="fw-bold text-white">+503 2258-5505</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <hr class="border-secondary my-3">
+    
+            <!-- Derechos de autor -->
+            <div class="text-center text-white-50 small py-2">
+                &copy; 2025 <strong class="text-white">Winter Store</strong> — Desarrollado por Vladimir Ascencio. Todos los
+                derechos reservados.
+            </div>
+        </div>
+    </footer>   
+
+
+    <!-- Link de Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Link del script JS -->
+    <script src="../Ejercicio_2_Registro_Venta/js/scriptgestorventa.js"></script>
+</body>
+</html>
