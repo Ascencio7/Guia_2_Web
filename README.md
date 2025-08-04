@@ -92,6 +92,64 @@ Bienvenido a Winter Music. Una pagina web sencilla donde se podra ingresar:
 
 ---
 
+## Segundo Ejercicio: Registro de Ventas
+
+<h3 align="left" style="text-align: center;"> 📋 Winter Store</h3>
+
+<figure>
+  <img src="/Winter_Store_Images/Winter Store.png" alt="Winter Store" style="max-width: 600px; display:block; margin:auto;">
+</figure>
+
+Bienvenido a Winter Store. Una pagina web sencilla donde se podra ingresar:
+
+- Nombre del producto
+- Precio del producto
+- Cantidad llevada del producto
+- Descripción opcional del producto
+- Ver un detalle simple del producto más vendido, total de venta y detalle de los productos
+
+<br>
+
+- Se puede ingresar el producto, precio y cantidad sin necesidad de una descripción.
+<figure>
+  <img src="/Winter_Store_Images/Agregar producto sin descripcion.png" alt="Winter Store" style="max-width: 600px; display:block; margin:auto;">
+</figure>
+
+
+- Se puede ingresar el producto, precio y cantidad con una descripción opcional.
+<figure>
+  <img src="/Winter_Store_Images/Agregar producto con descripcion.png" alt="Winter Store" style="max-width: 600px; display:block; margin:auto;">
+</figure>
+
+- Al ingresar los productos aparecerán automáticamente en la tabla de productos registrados. También aparecerá el botón de ver informe.
+<figure>
+  <img src="/Winter_Store_Images/Tabla de los productos.png" alt="Winter Store" style="max-width: 600px; display:block; margin:auto;">
+</figure>
+
+
+- Al dar clic en el botón se dirigirá a ver el informe de los productos registrados. Se verán detalles como: Total de ventas, el producto más vendido y el resumen de cuáles han sido los productos registrados y sus unidades. Usando una plantilla de Bootstrap.
+<figure>
+  <img src="/Winter_Store_Images/Informe de productos.png" alt="Winter Store" style="max-width: 600px; display:block; margin:auto;">
+</figure>
+
+---
+## Links usados para el proyecto
+
+- Link para los emojis usados 😲​
+```bash
+https://emojikeyboard.top/es/
+
+```
+
+- Link de Canva para los logos que se han creado ©️​
+
+```bash
+https://www.canva.com/
+
+```
+
+---
+
 ## ✨ Autor
 
 Vladimir Ascencio – Desarrollador en aprendizaje continuo 🚀

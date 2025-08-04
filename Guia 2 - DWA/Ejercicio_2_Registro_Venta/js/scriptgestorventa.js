@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', () =>{
     // Un contador para enumerar las filas
     let contador = 1;
 
+    const ventas = [];
+
     // Se agrega un evento que se ejecuta cuando se envia el formulario al hacer clic en el boton o enter
     formulario.addEventListener('submit', (e) =>{
 
@@ -41,7 +43,11 @@ document.addEventListener('DOMContentLoaded', () =>{
         }
 
         // Se calcula el total del producto y se redondea a 2 decimales
-        const totalProducto = (precio * cantidad).toFixed(2);
+        const totalProducto = precio * cantidad;
+
+        ventas.push({nombre, precio, cantidad, descripcion, totalProducto});
+
+        localStorage.setItem('ventas', JSON.stringify(ventas));
 
         // Se crea un nuevo elemento html para la tabla
         const fila = document.createElement('tr');
@@ -53,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () =>{
             <td>$${precio}</td>
             <td>${cantidad}</td>
             <td>${descripcion}</td>
-            <td>$${totalProducto}</td>
+            <td>$${totalProducto.toFixed(2)}</td>
         `;
 
         // Se agrega la fila a la tabla
