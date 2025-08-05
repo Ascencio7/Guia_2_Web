@@ -136,6 +136,72 @@ Bienvenido a Winter Store. Una pagina web sencilla donde se podra ingresar:
   <img src="/Winter_Store_Images/informe_productos.png" alt="Winter Store" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
+
+---
+
+## Tercer Ejercicio: Gestor de Libros
+
+<h3 align="left" style="text-align: center;"> 📖​ Winter Book</h3>
+
+<figure>
+  <img src="/Winter_Book_Images/Winter_Book.png" alt="Winter Book" style="max-width: 600px; display:block; margin:auto;">
+</figure>
+
+Bienvenido a Winter Book. Una pagina web sencilla donde se podra ingresar:
+
+- Titulo del libro
+- Autor del libro
+- El género literario del libro
+- Descripción opcional del producto
+
+
+<br>
+
+- Se puede ingresar el titulo, autor y género sin necesidad de una descripción.
+<figure>
+  <img src="/Winter_Book_Images/Agregar_datos_sin_descripcion.png" alt="Winter Book" style="max-width: 600px; display:block; margin:auto;">
+</figure>
+
+
+- Se puede ingresar el titulo, autor y género con descripción.
+<figure>
+  <img src="/Winter_Book_Images/Agregar_datos_con_descripcion.png" alt="Winter Book" style="max-width: 600px; display:block; margin:auto;">
+</figure>
+
+
+- Se mostrarán dinámicante cada libro registrado en un tabla.
+<figure>
+  <img src="/Winter_Book_Images/Libros_registrados.png" alt="Winter Book" style="max-width: 600px; display:block; margin:auto;">
+</figure>
+
+- Se pueden editar los datos ingresados del libro. Al dar clic en Guardar Cambios se actualizará la tabla con los datos nuevos.
+<figure>
+  <img src="/Winter_Book_Images/editar_libros.png" alt="Winter Book" style="max-width: 600px; display:block; margin:auto;">
+</figure>
+
+<figure>
+  <img src="/Winter_Book_Images/datos_actualizados.png" alt="Winter Book" style="max-width: 600px; display:block; margin:auto;">
+</figure>
+
+- Se puede eliminar los libros registrados. Se preguntara primero si los desea eliminar
+<figure>
+  <img src="/Winter_Book_Images/eliminar_libro.png" alt="Winter Book" style="max-width: 600px; display:block; margin:auto;">
+</figure>
+
+- Se puede filtrar los libros buscando por autor. Al momento de escribir el nombre la tabla se actualizará en tiempo real facilitando el filtro.
+<figure>
+  <img src="/Winter_Book_Images/libro_filtrado_por_autor.png" alt="Winter Book" style="max-width: 600px; display:block; margin:auto;">
+</figure>
+
+- Se puede filtrar los libros buscando por género. Al momento de escribir el género la tabla se actualizará en tiempo real facilitando el filtro.
+<figure>
+  <img src="/Winter_Book_Images/libro_filtrado_por_genero.png" alt="Winter Book" style="max-width: 600px; display:block; margin:auto;">
+</figure>
+
+<figure>
+  <img src="/Winter_Book_Images/winterbookTabla.png" alt="Winter Book" style="max-width: 600px; display:block; margin:auto;">
+</figure>
+
 ---
 ## Links usados para el proyecto
 
