@@ -42,7 +42,7 @@ Este proyecto está diseñado como práctica de **aprendizaje**, enfocado en ent
 <h3 align="left" style="text-align: center;"> 🎵 Winter Music</h3>
 
 <figure>
-  <img src="/imagenes/Winter Music.png" alt="Winter Music" style="max-width: 600px; display:block; margin:auto;">
+  <img src="/Winter_Music_Images/Winter_Music.png" alt="Winter Music" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
 Bienvenido a Winter Music. Una pagina web sencilla donde se podra ingresar:
@@ -55,13 +55,13 @@ Bienvenido a Winter Music. Una pagina web sencilla donde se podra ingresar:
 
 - Se ingresa el titulo y artista.
 <figure>
-  <img src="/imagenes/Ingresar titulo y artista.png" alt="Ingresar título y artista" style="max-width: 600px; display:block; margin:auto;">
+  <img src="/Winter_Music_Images/Ingresar_titulo_y_artista.png" alt="Ingresar título y artista" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
 
 - Se selecciona el archivo .mp3.
 <figure>
-  <img src="/imagenes/Seleccionar archivo mp3.png" alt="Seleccionar archivo" style="max-width: 600px; display:block; margin:auto;">
+  <img src="/Winter_Music_Images/Agregar_archivo_mp3.png" alt="Seleccionar archivo" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
 
@@ -69,25 +69,25 @@ Bienvenido a Winter Music. Una pagina web sencilla donde se podra ingresar:
 
 - En la canción tiene 3 opciones: Subir la canción a la posición superior. Bajar la canción a la posición inferior. Y borrar la canción.
 <figure>
-  <img src="/imagenes/Lista actualizada.png" alt="Lista actualizada" style="max-width: 600px; display:block; margin:auto;">
+  <img src="/Winter_Music_Images/lista_actualizada.png" alt="Lista actualizada" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
 
 - Al dar clic en reproducir se mostrara el siguiente mensaje con el orden de las canciones de la lista.
 <figure>
-  <img src="/imagenes/Se mostrara la lista de canciones.png" alt="Mostrar lista de canciones" style="max-width: 600px; display:block; margin:auto;">
+  <img src="/Winter_Music_Images/lista_a_reproducir.png" alt="Mostrar lista de canciones" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
 
 - Se reproduce la primera canción de la lista, y subsiguientes.
 <figure>
-  <img src="/imagenes/Reproduce la lista.png" alt="Reproducción" style="max-width: 600px; display:block; margin:auto;">
+  <img src="/Winter_Music_Images/lista_reproducida.png" alt="Reproducción" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
 
 - Y por último, se podrá filtrar las canciones por el nombre del artista.
 <figure>
-  <img src="/imagenes/Filtrar por artista.png" alt="Filtrar artista" style="max-width: 600px; display:block; margin:auto;">
+  <img src="/Winter_Music_Images/filtrar_por_artista.png" alt="Filtrar artista" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
 ---
@@ -97,7 +97,7 @@ Bienvenido a Winter Music. Una pagina web sencilla donde se podra ingresar:
 <h3 align="left" style="text-align: center;"> 📋 Winter Store</h3>
 
 <figure>
-  <img src="/Winter_Store_Images/Winter Store.png" alt="Winter Store" style="max-width: 600px; display:block; margin:auto;">
+  <img src="/Winter_Store_Images/Winter_Store.png" alt="Winter Store" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
 Bienvenido a Winter Store. Una pagina web sencilla donde se podra ingresar:
@@ -112,24 +112,28 @@ Bienvenido a Winter Store. Una pagina web sencilla donde se podra ingresar:
 
 - Se puede ingresar el producto, precio y cantidad sin necesidad de una descripción.
 <figure>
-  <img src="/Winter_Store_Images/Agregar producto sin descripcion.png" alt="Winter Store" style="max-width: 600px; display:block; margin:auto;">
+  <img src="/Winter_Store_Images/agregar_producto_sin_descripcion.png" alt="Winter Store" style="max-width: 600px; display:block; margin:auto;">
+</figure>
+
+<figure>
+  <img src="/Winter_Store_Images/producto_sin_descripcion.png" alt="Winter Store" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
 
 - Se puede ingresar el producto, precio y cantidad con una descripción opcional.
 <figure>
-  <img src="/Winter_Store_Images/Agregar producto con descripcion.png" alt="Winter Store" style="max-width: 600px; display:block; margin:auto;">
+  <img src="/Winter_Store_Images/producto_con_descripcion.png" alt="Winter Store" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
 - Al ingresar los productos aparecerán automáticamente en la tabla de productos registrados. También aparecerá el botón de ver informe.
 <figure>
-  <img src="/Winter_Store_Images/Tabla de los productos.png" alt="Winter Store" style="max-width: 600px; display:block; margin:auto;">
+  <img src="/Winter_Store_Images/tabla_productos.png" alt="Winter Store" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
 
 - Al dar clic en el botón se dirigirá a ver el informe de los productos registrados. Se verán detalles como: Total de ventas, el producto más vendido y el resumen de cuáles han sido los productos registrados y sus unidades. Usando una plantilla de Bootstrap.
 <figure>
-  <img src="/Winter_Store_Images/Informe de productos.png" alt="Winter Store" style="max-width: 600px; display:block; margin:auto;">
+  <img src="/Winter_Store_Images/informe_productos.png" alt="Winter Store" style="max-width: 600px; display:block; margin:auto;">
 </figure>
 
 ---

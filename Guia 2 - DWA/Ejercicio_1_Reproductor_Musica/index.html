@@ -64,12 +64,13 @@
 
 
     <!-- Contenido principal -->
-    <main class="flex-grow-1 container-fluid m-0 p-0" style="height: calc(100vh - 80px);">
-        <div class="row h-100 g-0">
+    <main class="container-fluid py-4 border-top" style="height: calc(100vh - 80px);">
+        <div class="row h-100 g-5">
 
             <!-- Panel izquierdo para agregar las canciones -->
-            <div class="col-md-6 bg-white p-4 border-end d-flex flex-column">
-                <h2 class="text-center mb-4" style="text-transform: uppercase;">Agregar Canción</h2>
+            <div class="col-md-4 col-lg-3 bg-light rounded shadow-sm p-4 d-flex flex-column">
+                <h2 class="text-center mb-4 text-uppercase text-primary fw-bold">Agregar Canción</h2>
+                
                 <form id="songForm" class="d-grid gap-3">
                     <!-- Se pide el titulo de la cancion -->
                     <input type="text" id="title" class="form-control" placeholder="Título" required />
@@ -83,9 +84,9 @@
             </div>
 
             <!-- Panel derecho donde se verán las canciones agregadas -->
-            <div class="col-md-6 bg-white p-4 d-flex flex-column" style="height: 100%;">
+            <div class="col-md-8 col-lg-9 bg-white rounded shadow-sm p-4 d-flex flex-column" style="height: 100%;">
                 <!-- Titulo de la playlist -->
-                <h2 class="text-center text-dark mb-4" style="text-transform: uppercase;">Playlist</h2>
+                <h2 class="text-center text-dark mb-4 text-uppercase fw-bold">Playlist</h2>
                 <!-- Aqui se agregarian y mostrarian las canciones agregadas -->
                 <ul id="playlist" class="list-group mb-3 overflow-auto" style="flex-grow: 1; min-height: 0;"></ul>
                 <!-- Boton para reproducir la playlist dependiendo el orden de las canciones, lo haria de golpe -->
